@@ -1,0 +1,27 @@
+class Conta:
+    def __init__(self, clientes, numero, saldo):
+        self.clientes = clientes
+        self.numero = numero
+        self.saldo = saldo
+
+    def depositar(self, valor):
+        self.saldo += valor
+        return f'Depósito realizado no valor de R$ {valor}!'
+
+    def sacar(self, valor):
+        if self.saldo < valor:
+            return f'Saldo suficiente? {False} - Saque não realizado!'
+        else:
+            self.saldo -= valor
+            return f'Saldo suficiente? {True} - Saque realizado no valor de R${valor}!'
+
+    def transfere_valor(self, conta_destino, valor):
+        if self.saldo < valor:
+            return 'Saldo insuficiente!'
+        else:
+            conta_destino.depositar(valor)
+            self.saldo -= valor
+            return f'Transferência realizada para a conta: {conta_destino} no valor: R$ {valor}!'
+
+    def gerar_saldo(self):
+        print(f'IMPRIMIR SALDO --> Número da conta: {self.numero} \t Saldo: R$ {self.saldo}')
