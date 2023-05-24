@@ -1,0 +1,2 @@
+
+Implementar um programa em Python para criar um classe Veículo com atributos de instância "velocidade máxima" e "quilômetros percorridos por litro"

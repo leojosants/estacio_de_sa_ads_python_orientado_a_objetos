@@ -1,0 +1,10 @@
+
+Ex 01:
+    - Implementar um programa em Python para criar um classe Veículo com atributos de instância "velocidade máxima" e "quilômetros percorridos por litro"
+
+Ex 02:
+    - Crie uma classe filha "Onibus" que herdará todas as variáveis e métodos da classe "Veiculo"
+
+Ex 03:
+    - Modificar a classe filha "Onibus", de modo que ela forneça a quantidade de assentos.
+    - Além disso, o valor desse parâmetro deve ser 70
