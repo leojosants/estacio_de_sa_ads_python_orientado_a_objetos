@@ -1,0 +1,16 @@
+
+Vamos imaginar que agora tenhamos uma entidade Banco que controla todas as contas criadas no sistema de conta corrente. 
+
+As contas podem ser do tipo conta, conta-comum ou conta-renumerada. 
+
+    O cálculo do rendimento:
+    
+        Conta Cliente desconta IOF e IR; 
+    
+        Conta Renumerada, apenas o IOF. 
+    
+        Conta Cliente não tem desconto nenhum.
+
+Todos os descontos são realizados em cima do valor bruto após o rendimento mensal. 
+
+Uma vez por mês, o banco executa o cálculo do rendimento de todos os tipos de contas.
