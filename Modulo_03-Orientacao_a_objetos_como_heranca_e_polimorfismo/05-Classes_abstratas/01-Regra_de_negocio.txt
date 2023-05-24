@@ -1,0 +1,4 @@
+
+A classe abstrata se encaixa perfeitamente no problema do sistema de conta corrente do banco. 
+
+Nesse sistema, o banco não quer tratar de clientes do tipo ContaCliente, e sim apenas dos objetos do tipo ContaComum e Conta VIP.
