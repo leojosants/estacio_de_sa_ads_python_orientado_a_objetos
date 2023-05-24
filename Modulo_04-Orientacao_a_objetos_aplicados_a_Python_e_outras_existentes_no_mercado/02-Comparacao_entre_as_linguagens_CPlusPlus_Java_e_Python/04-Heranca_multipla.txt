@@ -1,0 +1,20 @@
+
+--> JAVA
+    Interface
+        interface Conta {}
+        interface Poupanca {}
+        class ContaRemunerada implements Conta, Poupanca {}
+
+    Herança
+        class Conta {}
+        class Poupanca {}
+        class ContaRemunerada extends Conta, Poupanca {}
+
+
+--> C++
+    class ContaRemunerada:
+        public Conta, public Poupanca {}
+
+
+--> PYTHON
+    class ContaRemunerada(Conta, Poupanca):

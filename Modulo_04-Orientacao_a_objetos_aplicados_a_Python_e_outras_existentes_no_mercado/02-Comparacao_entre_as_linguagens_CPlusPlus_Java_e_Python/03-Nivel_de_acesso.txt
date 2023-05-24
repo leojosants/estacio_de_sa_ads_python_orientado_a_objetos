@@ -1,0 +1,24 @@
+
+--> JAVA
+    public class Cliente {
+        private float saldo;
+        private String nome;
+        protected String referencia;
+    }
+
+
+--> C++
+    class Cliente {
+        private:
+            float saldo;
+
+        public:
+            char* nome;
+    }
+
+
+--> PYTHON
+    class Cliente:
+        def __init__(self):
+            self.nome = "";
+            self.__saldo = 0.0;

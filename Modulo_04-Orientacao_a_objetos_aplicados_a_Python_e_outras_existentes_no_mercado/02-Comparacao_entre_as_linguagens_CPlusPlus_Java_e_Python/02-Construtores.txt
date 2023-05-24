@@ -1,0 +1,26 @@
+
+--> JAVA
+    
+    class Conta {
+        public Conta() {}
+    }
+
+
+
+--> C++
+    
+    class Conta {
+        public Conta();
+        ~Conta();
+    }
+
+    Conta::Conta() {}
+    Conta::~Conta() {}
+
+
+
+--> PYTHON
+
+    class Conta:
+        def __init__(self):
+            pass    

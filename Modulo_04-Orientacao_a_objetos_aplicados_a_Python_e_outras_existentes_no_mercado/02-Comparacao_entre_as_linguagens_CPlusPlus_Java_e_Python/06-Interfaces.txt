@@ -1,0 +1,17 @@
+
+--> JAVA
+    Interface
+        interface Conta {}
+        interface Poupanca {}
+        class ContaRemunerada implements Conta, Poupanca {}
+
+
+--> C++
+    class Icalc {
+        virtual int soma(int a, int b) = 0;
+        virtual int subtrair(int a, int b) = 0
+    }
+
+
+--> PYTHON
+    Não possui.

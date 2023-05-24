@@ -1,0 +1,16 @@
+
+--> JAVA
+    
+    Conta c1 = new Conta()
+
+
+
+--> C++
+    
+    Conta *c1 = new Conta()
+
+
+
+--> PYTHON
+    
+    c1 = Conta()

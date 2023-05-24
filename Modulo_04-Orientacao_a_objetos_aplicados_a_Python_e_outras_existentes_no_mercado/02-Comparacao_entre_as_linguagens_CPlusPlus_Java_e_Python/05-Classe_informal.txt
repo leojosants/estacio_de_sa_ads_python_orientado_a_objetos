@@ -1,0 +1,17 @@
+
+--> JAVA
+    new ActionListener() {
+        public void actionPerformed(ActionEvent e) {}
+    }
+
+
+--> C++
+    void Func() {
+        class LocalClass {}
+    }
+
+
+--> PYTHON
+    def scope_test():
+        def do_local():
+            spam = "local spam"

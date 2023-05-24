@@ -1,0 +1,20 @@
+
+--> JAVA
+    @override
+    public void imprimir() {
+        super.imprimir();
+    }
+
+
+--> C++
+    class Profissional: public Pessoa {
+        virtual void imprimir {
+            Pessoa::imprimir;
+        }
+    }
+
+
+--> PYTHON
+    class Profissional(Pessoa):
+        def imprimir():
+            super().imprimir()
